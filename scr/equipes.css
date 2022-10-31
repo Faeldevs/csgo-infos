@@ -1,0 +1,31 @@
+.carrossel__equipes{
+    background: rgb(96, 58, 201);
+    width: 100%;
+}
+
+ .carrossel__titulo--equipes{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 1em 0 0.5em 0;
+}
+
+.swiper-slide__equipes img{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient( rgba(63, 38, 131, 0.596) , rgb(96, 58, 201))  ;
+}
+
+.swiper-button-prev-equipes,
+.swiper-button-next-equipes{
+    display: none;
+}
+
+.swiper-pagination--equipes{
+    position: initial;
+    margin: 0.5em 0;
+}
+

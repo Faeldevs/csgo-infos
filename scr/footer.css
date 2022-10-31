@@ -1,0 +1,11 @@
+footer{
+    background: black;
+    width: 100%;
+    padding: 5em 0;
+
+}
+
+footer h2 , p{
+    text-align: center;
+    color: #fff;
+}

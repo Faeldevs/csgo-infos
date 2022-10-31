@@ -1,0 +1,32 @@
+.cabecalho__logo img{
+    width: 5.8rem;
+}
+
+.cabecalho{
+    width: 100%;
+    z-index: 9000;
+    position: fixed;
+    height: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(96, 58, 201);
+}
+
+.cabecalho__menu ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    padding: 0 1em;
+}
+
+.cabecalho__menu--itens a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.697);
+    font-size: 18px;
+    margin-left: 1em;
+}
+
+.cabecalho__menu--itens a:hover{
+    color: rgb(0, 0, 0);
+}
